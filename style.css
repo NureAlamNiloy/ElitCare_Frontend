@@ -1,0 +1,134 @@
+/* 
+Template Name: 
+Author: Md. Niloy
+Design-by : Niloy
+Version: 0.1
+*/
+
+/* 
+    CSS Index
+========================
+    A.Common Css
+    B. Navbar
+    C. Banner
+
+    
+    
+ 
+
+ 
+*/
+/* common css start*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden !important;
+    width: 100% !important;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,span,a,p{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:focus{
+    outline: none;
+}
+
+p {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--pg-color);
+}
+
+
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =====================B. Navbar=================  */
+nav .menu li:hover{
+    color: rgb(17, 129, 101);
+
+}
+nav .menu li{
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+}
+nav .menu li::before{
+
+    content: ' ';
+    position: absolute;
+    background-color: rgb(17, 129, 101);
+    top: 0;
+    left: 0;
+    height: 2px;
+    transform: scale(0);
+}
+nav .menu li:hover::before{
+    right: 0;
+    transition: .6s;
+    transform: scale(1);
+}
+
+
+/* ======================== Banner ==================== */
+.banner h4 span{
+    color: rgb(17, 129, 101);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.banner .row{
+    background: linear-gradient(rgb(60, 184, 153), rgb(17, 209, 216));
+    display: flex;
+}
+.banner-img img{
+    height: 500px !important;
+    margin-top: -30%;
+}
+
+
+
+/* ======================== Services ==================== */
+.services-title h1{
+    color: rgb(17, 129, 101);
+    font-size: 44px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
